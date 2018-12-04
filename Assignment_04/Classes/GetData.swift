@@ -12,8 +12,7 @@ import UIKit
 
 class GetData: NSObject {
     var dbData : [NSDictionary]?
-    //TODO: Make new Database and change the below URL.
-    let myUrl = "https://fazekade.dev.fast.sheridanc.on.ca/swift_tutorial/sqlToJson.php" as String
+    let myUrl = "https://fazekade.dev.fast.sheridanc.on.ca/assignment04/sqlToJson.php" as String
     
     enum JSONError : String, Error {
         case NoData = "Error: No Data"

@@ -15,6 +15,13 @@
 		002A48A321B5FEFC0007B869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002A48A121B5FEFC0007B869 /* Main.storyboard */; };
 		002A48A521B5FF000007B869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002A48A421B5FF000007B869 /* Assets.xcassets */; };
 		0064307921B6044100A4B0E5 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0064307821B6044100A4B0E5 /* GetData.swift */; };
+		006430B321B62DF400A4B0E5 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 006430B221B62DF400A4B0E5 /* avatar.png */; };
+		006430BB21B631E500A4B0E5 /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = 006430BA21B631E500A4B0E5 /* fireball.png */; };
+		006430BD21B6363A00A4B0E5 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 006430BC21B6363A00A4B0E5 /* background.jpg */; };
+		006430BF21B640C000A4B0E5 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 006430BE21B640C000A4B0E5 /* watermelon.png */; };
+		006430C121B6423200A4B0E5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006430C021B6423200A4B0E5 /* HomeViewController.swift */; };
+		006430C321B648D000A4B0E5 /* MyDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006430C221B648D000A4B0E5 /* MyDataTableViewCell.swift */; };
+		006430C521B6498800A4B0E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006430C421B6498800A4B0E5 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		002A48A421B5FF000007B869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002A48A621B5FF000007B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0064307821B6044100A4B0E5 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		006430B221B62DF400A4B0E5 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		006430BA21B631E500A4B0E5 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		006430BC21B6363A00A4B0E5 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		006430BE21B640C000A4B0E5 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
+		006430C021B6423200A4B0E5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		006430C221B648D000A4B0E5 /* MyDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataTableViewCell.swift; sourceTree = "<group>"; };
+		006430C421B6498800A4B0E5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +74,11 @@
 		002A489621B5FEFC0007B869 /* Assignment_04 */ = {
 			isa = PBXGroup;
 			children = (
+				006430B121B62DC000A4B0E5 /* Scenes */,
 				002A48AF21B5FF280007B869 /* Assets */,
 				002A48AE21B5FF1F0007B869 /* Storyboards */,
 				002A48AD21B5FF120007B869 /* View Controllers */,
 				002A48AC21B5FF090007B869 /* Classes */,
-				002A489921B5FEFC0007B869 /* GameScene.sks */,
-				002A489B21B5FEFC0007B869 /* Actions.sks */,
 				002A48A621B5FF000007B869 /* Info.plist */,
 			);
 			path = Assignment_04;
@@ -75,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				002A489721B5FEFC0007B869 /* AppDelegate.swift */,
-				002A489D21B5FEFC0007B869 /* GameScene.swift */,
 				0064307821B6044100A4B0E5 /* GetData.swift */,
+				006430C221B648D000A4B0E5 /* MyDataTableViewCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -85,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				002A489F21B5FEFC0007B869 /* GameViewController.swift */,
+				006430C021B6423200A4B0E5 /* HomeViewController.swift */,
+				006430C421B6498800A4B0E5 /* TableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -100,9 +115,23 @@
 		002A48AF21B5FF280007B869 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				006430BE21B640C000A4B0E5 /* watermelon.png */,
+				006430BC21B6363A00A4B0E5 /* background.jpg */,
+				006430BA21B631E500A4B0E5 /* fireball.png */,
+				006430B221B62DF400A4B0E5 /* avatar.png */,
 				002A48A421B5FF000007B869 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		006430B121B62DC000A4B0E5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				002A489D21B5FEFC0007B869 /* GameScene.swift */,
+				002A489921B5FEFC0007B869 /* GameScene.sks */,
+				002A489B21B5FEFC0007B869 /* Actions.sks */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +192,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006430BB21B631E500A4B0E5 /* fireball.png in Resources */,
 				002A48A321B5FEFC0007B869 /* Main.storyboard in Resources */,
+				006430BD21B6363A00A4B0E5 /* background.jpg in Resources */,
+				006430B321B62DF400A4B0E5 /* avatar.png in Resources */,
 				002A489A21B5FEFC0007B869 /* GameScene.sks in Resources */,
 				002A48A521B5FF000007B869 /* Assets.xcassets in Resources */,
 				002A489C21B5FEFC0007B869 /* Actions.sks in Resources */,
+				006430BF21B640C000A4B0E5 /* watermelon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006430C121B6423200A4B0E5 /* HomeViewController.swift in Sources */,
+				006430C521B6498800A4B0E5 /* TableViewController.swift in Sources */,
+				006430C321B648D000A4B0E5 /* MyDataTableViewCell.swift in Sources */,
 				002A489E21B5FEFC0007B869 /* GameScene.swift in Sources */,
 				002A48A021B5FEFC0007B869 /* GameViewController.swift in Sources */,
 				0064307921B6044100A4B0E5 /* GetData.swift in Sources */,
